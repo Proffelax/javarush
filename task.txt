@@ -1,0 +1,20 @@
+package com.javarush.task.task13.task1319;
+
+import java.io.*;
+
+/* 
+Писатель в файл с консоли
+*/
+
+public class Solution {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(r.readLine()));
+        while (true) {
+            String line = r.readLine();
+            writer.write(line + "\n");
+            if (line.equals("exit")) break;
+
+        }
+        r.close();
+        writer.close();
+    }
+}
