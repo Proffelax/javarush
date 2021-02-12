@@ -7,6 +7,9 @@ import java.io.*;
 */
 
 public class Solution {
+    public static void main(String[] args) throws IOException {
+        // напишите тут ваш код
+        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new FileWriter(r.readLine()));
         while (true) {
             String line = r.readLine();
